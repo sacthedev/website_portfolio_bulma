@@ -18,9 +18,7 @@
     "bulma": "^0.9.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
-    "node-sass": "^5.0.0"
-  },
-  "devDependencies": {
+    "node-sass": "^5.0.0",
     "copyfiles": "^2.4.1",
     "cssmin": "^0.4.3",
     "htmlmin": "0.0.7",
