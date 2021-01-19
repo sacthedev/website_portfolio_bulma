@@ -9,7 +9,7 @@
     "imagemin": "imagemin img/* --out-dir='dist/img'",
     "copysvg": "copyfiles img/programming_languages/* dist/",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm install && npm run clean && npm run imagemin && npm run copysvg && npm run usemin && npm run copysvg"
+    "build": "npm install -g && npm run clean && npm run imagemin && npm run copysvg && npm run usemin && npm run copysvg"
   },
   "author": "",
   "license": "ISC",
