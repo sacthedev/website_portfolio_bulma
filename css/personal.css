@@ -1,0 +1,28 @@
+.photography figure {
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .photography figure figcaption {
+    background-color: rgba(74, 74, 204, 0.274);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 1s; }
+  .photography figure span {
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s; }
+
+.photography figure:hover figcaption {
+  opacity: 1; }
+
+.photography figure:hover span {
+  transform: scale(5); }

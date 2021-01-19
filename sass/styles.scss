@@ -44,3 +44,11 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 */
+
+.photography {
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

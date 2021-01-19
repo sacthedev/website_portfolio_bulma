@@ -7,6 +7,7 @@
   <title>Simeon Steiner</title>
   <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
   <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="css/personal.css">
 </head>
 
 <body>
@@ -58,37 +59,63 @@
   <section class="photography section is-medium" id="photography">
     <div class="columns is-multiline">
       <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+        <div class="avatar is-justify-content-center is-align-content-center">
+          <figure class="clickable-figure">
+            <img src="img/forest.jpg" alt="">
+            <figcaption>
+              <span class="fas fa-expand-alt"></span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
       <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+        <div class="avatar is-justify-content-center is-align-content-center">
+          <figure class="clickable-figure">
+            <img src="img/forest.jpg" alt="">
+            <figcaption>
+              <span class="fas fa-expand-alt"></span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
       <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+        <div class="avatar is-justify-content-center is-align-content-center">
+          <figure class="clickable-figure">
+            <img src="img/forest.jpg" alt="">
+            <figcaption>
+              <span class="fas fa-expand-alt"></span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
       <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+        <div class="avatar is-justify-content-center is-align-content-center">
+          <figure class="clickable-figure">
+            <img src="img/forest.jpg" alt="">
+            <figcaption>
+              <span class="fas fa-expand-alt"></span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
       <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+        <div class="avatar is-justify-content-center is-align-content-center">
+          <figure class="clickable-figure">
+            <img src="img/forest.jpg" alt="">
+            <figcaption>
+              <span class="fas fa-expand-alt"></span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
-      </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
-      </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
-      </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
-      </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
-      </div>
-      <div class="column is-one-third-desktop">
-        <img src="img/forest.jpg" alt="">
+      <div class="modal" id="image-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content-area" style="width:70rem">
+          <p class="image">
+            <img id="modal-image-placeholder" style="width:100%" src="" alt="">
+          </p>
+        </div>
+        <button class="modal-close is-large" onclick="closeImageModal()"></button>
       </div>
     </div>
   </section>
@@ -538,5 +565,6 @@
     </div>
   </footer>
 </body>
+<script src="scripts/script.js"></script>
 
 </html>
