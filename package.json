@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "clean": "npx rimraf dist",
-    "imagemin": "npx imagemin img/* --out-dir='dist/img'",
     "copysvg": "npx copyfiles img/programming_languages/* dist/",
+    "copyimage": "npx copyfiles img/* dist/",
     "usemin": "npx usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm run clean && npm run usemin && npm run copysvg && npm run imagemin"
+    "build": "npm run clean && npm run usemin && npm run copysvg && npm run copyimage"
   },
   "author": "",
   "license": "ISC",
