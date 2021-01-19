@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
-    "imagemin": "imagemin img/* --out-dir='dist/img'",
-    "copysvg": "copyfiles img/programming_languages/* dist/",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "imagemin": "npx imagemin img/* --out-dir='dist/img'",
+    "copysvg": "npx copyfiles img/programming_languages/* dist/",
+    "usemin": "npx usemin index.html -d dist --htmlmin -o dist/index.html",
     "build": "npm list --depth=0 && npm run clean && npm run imagemin && npm run copysvg && npm run usemin && npm run copysvg"
   },
   "author": "",
