@@ -9,20 +9,20 @@
     "imagemin": "imagemin img/* --out-dir='dist/img'",
     "copysvg": "copyfiles img/programming_languages/* dist/",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
-    "build": "npm install -g && npm run clean && npm run imagemin && npm run copysvg && npm run usemin && npm run copysvg"
+    "build": "npm install && npm run clean && npm run imagemin && npm run copysvg && npm run usemin && npm run copysvg"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "bulma": "^0.9.1",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^5.0.0",
     "copyfiles": "^2.4.1",
     "cssmin": "^0.4.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "htmlmin": "0.0.7",
     "imagemin": "^7.0.1",
+    "node-sass": "^5.0.0",
     "rimraf": "^3.0.2",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.6.0"
